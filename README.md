@@ -15,6 +15,4 @@ There are no specific requirements. Just run the "Path.py" file.
 
 This tool works in a case-insensitive manner. For example, when searching for the keyword "hi", if it finds the value "Hi", the search is considered successful and it is printed to the screen.
 
-## Screenshots
-
 ![App Screenshot](./ss.png)
