@@ -11,12 +11,12 @@ def search_folder(directory, keyword):
     print("********** Search result in file or directory names **********")
     for path, subdirs, files in os.walk(directory):
         for name in files:
-            if keyword in name.lower():  # Dosya adını küçük harfe dönüştür ve anahtar kelimeyi kontrol et
+            if keyword in name.lower():
                 file_path = os.path.join(path, name)
                 print(f"Keyword '{keyword}' was found in {file_path}")
 
         for dir_name in subdirs:
-           if keyword in dir_name.lower():  # Klasör adını küçük harfe dönüştür ve anahtar kelimeyi kontrol et
+           if keyword in dir_name.lower():
                 dir_path = os.path.join(path, dir_name)
                 print(f"Keyword '{keyword}' was found in {dir_path}")
 
