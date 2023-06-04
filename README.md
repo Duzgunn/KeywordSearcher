@@ -5,7 +5,7 @@ It searches for the user-entered keyword in the desired folder, its subfolders, 
 
 ## Installation
 
-There are no specific requirements. Just run the "Path.py" file.
+There are no requirements. Just run the "Path.py" file.
 
 ```bash
   python3 Path.py
