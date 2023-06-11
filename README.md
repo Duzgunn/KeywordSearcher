@@ -13,6 +13,6 @@ There are no requirements. Just run the "Path.py" file.
     
 ## Usage
 
-This tool works in a case-insensitive manner. For example, when searching for the keyword "hi", if it finds the value "Hi", the search is considered successful and it is printed to the screen.
+This tool works in a case-insensitive manner. For example, when searching for the keyword "hi", if it finds the word "Hi", the search is considered successful and it is printed to the screen.
 
 ![App Screenshot](./ss.png)
